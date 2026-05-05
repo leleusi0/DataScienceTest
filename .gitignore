@@ -1,0 +1,54 @@
+# ======================
+# Python & uv
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.python-version
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ======================
+# Data files
+# ======================
+# Raw data — never commit datasets to GitHub
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+*.tsv
+*.db
+*.duckdb
+
+# ======================
+# macOS
+# ======================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+*.code-workspace
+
+# ======================
+# Environment & secrets
+# ======================
+.env
+*.env
+.envrc
+secrets.toml
+credentials.json
